@@ -78,13 +78,15 @@ h2 {
   justify-content: space-between;
   background: #3a3329;
   padding: 0px 60px;
+  vertical-align: bottom;
+
 }
 
 footer {
   clear: both;
-    position: relative;
-    
-    margin-top: -200px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
   
 }
 
@@ -92,4 +94,6 @@ footer {
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
-
+body { 
+  margin: 0; 
+}
