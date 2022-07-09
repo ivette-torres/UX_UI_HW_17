@@ -4,6 +4,7 @@
   font-size: 45px;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: heavy;
 
 }
 
@@ -35,7 +36,7 @@
 }
 
 .myImage {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 /* body text */
@@ -80,14 +81,15 @@ h2 {
 }
 
 footer {
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-
+  clear: both;
+    position: relative;
+    
+    margin-top: -200px;
+  
 }
 
 .footer p {
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
+
